@@ -1,0 +1,30 @@
+.kasa-banner {
+    color: #FF6060;
+    position: absolute;
+    width: 1240px;
+    left: 200px;
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.kasa-logo1 {
+    position: relative;
+    left: -15px;
+}
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+li{
+list-style: none; 
+padding: 35px;
+justify-content: space-around;
+
+}
+
+
