@@ -1,5 +1,10 @@
+import '../styles/Banner.css'
+
 function Banner() {
-    return <h1>Kasa</h1>
+
+    return <div className="kasa-banner"><h1>Kasa</h1></div>
+  
+    
 }
 
 export default Banner
