@@ -6,25 +6,27 @@ import logoK from '../assets/vectorK.png'
 import logoS from '../assets/vectorS.png'
 import logoA from '../assets/vectorA.png'
 
+
 function Header(){
 const logoKasa = (
     (<div>
-        <img src={logoK} alt='lettre K' className='kasa-logo' />
-        <img src={logo} alt='kasa' className='kasa-logo' />
-        <img src={logo1} alt='kasa' className='kasa-logo1' />
-        <img src={logoS} alt='lettre S' className='kasa-logo' />
-        <img src={logoA} alt='lettre A' className='kasa-logo' />
+        <img src={logoK} alt='lettre K' className='logoK' />
+        <img src={logo} alt='kasa' className='logo' />
+        <img src={logo1} alt='kasa' className='logo1' />
+        <img src={logoS} alt='lettre S' className='logoS' />
+        <img src={logoA} alt='lettre A' className='logoA' />
         </div>)
 )
 return (
-    <div className='kasa-banner'>
+    <div className='kasa-header'>
         <h1> {logoKasa}</h1>
         <nav className='nav'>
-            <li>Accueil</li>
-            <li>A Propos</li> 
+            <li className="Accueil">Accueil</li>
+            <li className="Apropos">A Propos</li> 
         </nav>
     </div>
 )};
 
 
 export default Header
+
