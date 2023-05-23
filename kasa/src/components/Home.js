@@ -1,6 +1,7 @@
 import IMG from '../assets/IMG.png'
 import '../styles/Home.css'
 
+
 function Home(){
     return (
         <div className='background'> 
@@ -10,6 +11,7 @@ function Home(){
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
         </style>
         </div>
+       
         )
     }
     

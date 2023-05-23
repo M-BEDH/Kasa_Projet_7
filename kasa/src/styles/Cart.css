@@ -1,0 +1,27 @@
+.cartLogement{
+    width: 340px;
+    height: 340px;
+    position: relative;
+    left: 150px;
+    top: 450px;
+    display: inline-grid;
+    justify-content: stretch;
+    margin-left: 50px;
+    padding: 50px;
+}
+img.appt{
+    height: 340px;
+    width: 340px;
+    margin: 0;
+    object-fit: cover;
+    background: #FF6060;
+    border-radius: 10px;
+}
+.titre{
+    width: 200px;
+    height: min-content;
+    position: relative;
+    top: -80px;
+    left: 20px;
+    color: black;
+}
