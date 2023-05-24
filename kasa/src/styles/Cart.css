@@ -2,26 +2,29 @@
     width: 340px;
     height: 340px;
     position: relative;
-    left: 150px;
+    left: 180px;
     top: 450px;
     display: inline-grid;
     justify-content: stretch;
-    margin-left: 50px;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 40px;
     padding: 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-color: #ff6060;
 }
 img.appt{
-    height: 340px;
+    height:340px;
     width: 340px;
     margin: 0;
     object-fit: cover;
-    background: #FF6060;
     border-radius: 10px;
+    filter: opacity(0.9);
 }
 .titre{
     width: 200px;
     height: min-content;
     position: relative;
-    top: -80px;
-    left: 20px;
-    color: black;
+    top: -18px;
+    color: white;
 }

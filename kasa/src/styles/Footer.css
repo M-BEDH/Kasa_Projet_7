@@ -1,0 +1,54 @@
+.kasa-footer{
+    height: 209px;
+    top: 500px;
+    border-radius: 0px;
+    position: relative;
+    background: #000000;
+}
+.logo_footer{
+    width: 380px;
+    position: relative;
+    left: 38.5%;
+    top: 50px;
+}
+.logoK-footer{
+    height: 35px;
+    width: 31px;
+    position: relative;
+    top: 30px;
+    left: 45.3%; 
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%)
+}
+.logo-footer {
+    height: 30px;
+    width: 27px;
+    position: relative;
+    left: 45.5%;
+    top: 33px;
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%) 
+}
+.logo1-footer{
+    height: 9px;
+    width: 3px;
+    position: relative;
+    top: 29px;
+    left: 45.05%;
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%)   
+}
+.logoS-footer{
+    height: 28px;
+    width: 23px;
+    position: relative;
+    top: 30px;
+    left: 45.65%;
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%)
+}
+.logoA-footer{
+    height: 28px;
+    width: 24px;
+    position: relative;
+    top: 30px;
+    left: 46%;
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%)
+}
+
