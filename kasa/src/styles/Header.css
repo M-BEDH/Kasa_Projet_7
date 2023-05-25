@@ -1,9 +1,9 @@
 .kasa-header {
     color: #FF6060;
     position: absolute;
-    width: 85.5%;
+    width: 80%;
     height: 68px;
-    left: 100px;
+    left: 10%;
     top: 40px;
     display: flex;
     justify-content: space-between;

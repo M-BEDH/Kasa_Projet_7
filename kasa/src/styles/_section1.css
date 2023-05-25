@@ -1,9 +1,9 @@
 .background{
     background: #000000;
     mix-blend-mode: darken;
-    width: 85.5%;
+    width:80%;
     height: 223px;
-    left:100px;
+    left: 10%;
     top: 171px;
     border-radius: 25px;
     position: absolute;

@@ -1,7 +1,6 @@
 import Cart from './Cart'
 import LogementsList from '../data/myJson.json'
 
-//function Gallery(Cart) {
 function Gallery() {
   return LogementsList.map((logement) => (
     <Cart
