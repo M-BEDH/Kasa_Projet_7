@@ -1,7 +1,9 @@
-import Erreur404 from "../../components/Error.js"
-import Header from "../../components/Header.js"
+import Erreur404 from "../../components/Error"
+import Header from "../../components/Header"
 
-function PageError() {
+
+
+function Error() {
 
   return (
     <div>
@@ -11,4 +13,4 @@ function PageError() {
   )
 }
 
-export default PageError
+export default Error
