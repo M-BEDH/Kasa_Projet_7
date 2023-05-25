@@ -1,29 +1,22 @@
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home/Home'
+import Apropos from './pages/A-propos/A-propos'
+import Error from './pages/Erreur404/Erreur404'
 
-import Root, { rootLoader } from './routes/root'
-import Home from './components/_section1'
-import Apropos from './pages/Apropos'
+function Routeur() {
+  return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/a-propos" element={<Apropos />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
+  )
+}
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Root />,
-    loader: rootLoader,
-  },
-  {
-    path: '../pages/Home',
-    element: <Home />,
-    loader: rootLoader,
-  },
-  {
-    path: '/',
-    element: <Apropos />,
-    loader: rootLoader,
-  },
-])
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
-)
+export default Routeur
