@@ -1,0 +1,18 @@
+import Header from '../../components/Header'
+import Section1 from '../../components/_section1'
+import Gallery from '../../components/Gallery'
+import Footer from '../../components/Footer'
+import IMG from '../../assets/IMG.png'
+
+function Home() {
+  return (
+    <div>
+      <Header />
+      <Section1 img={IMG} titre={'Chez vous partout et ailleurs!'} />
+    <div className='gallery'> <Gallery /> </div>  
+      <Footer />
+    </div>
+  )
+}
+
+export default Home
