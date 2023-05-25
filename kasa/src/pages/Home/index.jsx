@@ -1,6 +1,6 @@
-import Cart from "../../components/Cart"
+import Cart from "../../gallery/Cart"
 import Header from "../../components/Header"
-import Home from "../../components/Home"
+import Section1 from "../../components/_section1"
 import LogementsList from "../../data/myJson.json"
 import Footer from "../../components/Footer"
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Home />
+      <Section1 />
       {LogementsList.map((logement) => (
         <Cart
           key={logement.id}
