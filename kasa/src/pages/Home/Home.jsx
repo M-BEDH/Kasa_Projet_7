@@ -10,7 +10,7 @@ function Home() {
     <div>
       <Header />
       <Section1 img={IMG} titre={'Chez vous partout et ailleurs!'} />
-    <div className='gallery'> <Gallery /> </div>  
+      <Gallery />
       <Footer />
     </div>
   )

@@ -4,9 +4,9 @@ import Routeur from "./routeur";
 function App() {
     return (
         <div className="App">
-            <Routeur/>
+        <Routeur/>
         </div>
-    );
-}
-
-export default App;
+        );
+    }
+    
+    export default App;
