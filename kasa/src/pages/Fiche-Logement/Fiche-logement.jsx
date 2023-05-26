@@ -5,7 +5,6 @@ function FicheLogement() {
 
   return (
     <div>
-      
       <Logement />
     </div>
   )
