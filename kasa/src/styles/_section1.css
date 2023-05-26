@@ -4,7 +4,7 @@
     width:80%;
     height: 223px;
     left: 10%;
-    top: 171px;
+    top: 200px;
     border-radius: 25px;
     position: absolute;
 }
@@ -16,7 +16,7 @@
     height: 223px;
     position: relative;
     top: -20px;
-    opacity: 0.7;
+    opacity: 0.8;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -24,14 +24,14 @@
     color: white;
     background: rgba(255, 255, 255, 1);
     position: absolute;
-    left: 28%;
+    left: 26%;
     right: 25.14%;
     top: 24.32%;
     bottom: 69.04%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 47px;
     line-height: 142.6%;
     display: flex;
     align-items: center;

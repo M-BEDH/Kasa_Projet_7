@@ -1,8 +1,10 @@
 .kasa-footer{
     height: 209px;
-    top: 500px;
-    border-radius: 0px;
+    width: 80%;
     position: relative;
+    top: 850px; /* 4333 */
+    left: 185px;
+    border-radius: 0px;
     background: #000000;
 }
 .logo_footer{
