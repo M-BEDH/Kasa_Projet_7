@@ -1,0 +1,10 @@
+.carroussel{
+    width: 81.5%;
+    height: 415px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    border-radius: 25px;
+}
+
+

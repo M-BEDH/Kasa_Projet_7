@@ -1,0 +1,27 @@
+.titreLogement{
+    height: 51px;
+    width: 800px;
+    position: absolute;
+    left: 200px;
+    top: 630px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size:30px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #ff6060;
+}
+.location{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.informations{
+    height: 156px;
+    width: 550px;
+    position: relative;
+    left: 200px;
+    top: 400px;
+    border-radius: nullpx;
+    color: rgba(255, 96, 96, 1);
+}
