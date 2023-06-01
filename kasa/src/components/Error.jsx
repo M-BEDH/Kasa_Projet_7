@@ -8,7 +8,7 @@ function Erreur404() {
         {' '}
         Oups! La page que vous demander n'existe pas{' '}
       </p>{' '}
-      <p className="retour"> Retourner sur la page d'acceuil </p>
+      <p className="retour"> <a href="/"> Retourner sur la page d'accueil </a> </p> 
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');

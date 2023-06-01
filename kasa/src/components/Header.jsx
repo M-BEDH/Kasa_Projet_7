@@ -1,10 +1,10 @@
 import '../styles/Header.css'
-
 import logo from '../assets/vector.png'
 import logo1 from '../assets/vector1.png'
 import logoK from '../assets/vectorK.png'
 import logoS from '../assets/vectorS.png'
 import logoA from '../assets/vectorA.png'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   const logoKasa = (
@@ -20,8 +20,10 @@ function Header() {
     <div className="kasa-header">
       <h1> {logoKasa}</h1>
       <nav className="nav">
-        <li className="Accueil">Accueil</li>
-        <li className="Apropos">A Propos</li>
+         <NavLink to={"/"}>
+        <li className="Accueil">Accueil</li> </NavLink>
+         <NavLink to={"/à-propos/"}>
+        <li className="Apropos">A Propos</li> </NavLink>
       </nav>
     </div>
   )
