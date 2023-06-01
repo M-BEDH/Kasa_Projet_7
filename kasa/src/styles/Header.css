@@ -24,8 +24,8 @@
 }
 .logo1{
     position: absolute;
-    left: 6.80%;
-    right: 80.19%;
+    left: 6.90%;
+    right: 80%;
     top: 68.66%;
     bottom: 8.17%;
 }
@@ -63,11 +63,12 @@
     text-align: right;
     text-decoration-line: underline;
     list-style: none;
+    color: #FF6060;
 }
 .Accueil:hover{
     text-decoration-color: blueviolet;
 }
-.Apropos{
+a .Apropos{
     position: absolute;
     right: 0%;
     top: 25%;
@@ -78,7 +79,7 @@
     font-size: 24px;
     line-height: 142.6%;
     list-style: none;
-    
+    color: #FF6060;
 }
 .Apropos:hover{
     text-decoration-line: underline;

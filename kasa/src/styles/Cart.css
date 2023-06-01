@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 .cartLogement{
     width: 340px;
     height: 340px;
@@ -20,11 +22,15 @@ img.appt{
     filter: opacity(0.9);
 }
 .titre{
-    width: 200px;
+    width: 215px;
+    margin-left: 0;
     height: min-content;
     position: relative;
-    top: -18px;
+    top: -15px;
     color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
 }
 .gallery{
     width: 80%;
