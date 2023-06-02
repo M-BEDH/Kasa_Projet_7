@@ -9,7 +9,7 @@ function Apropos(){
     <div>
     <Section1 img={IMG} titre={""} />
     
-    
+    <div className='apropos'>
       < Rectangle  
       titre ={'Fiabilité'} />
        < Rectangle  
@@ -18,7 +18,7 @@ function Apropos(){
         titre={'Service'} />
        < Rectangle  
       titre ={'Sécurité'} />
-   
+   </div>
     </div>
     
     )

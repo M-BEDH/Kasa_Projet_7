@@ -12,7 +12,7 @@ function FicheLogement() {
   return (
     <div>
       < Carroussel
-      images={logement.pictures}
+     
     />
     < Body 
     key={logement.id}
@@ -23,15 +23,12 @@ function FicheLogement() {
     location={logement.location} 
     tags={logement.tags[0]}    
       />
-      <div className='information'>
-        <p className='description'>
-       < Rectangle  
-          titre={'Description'} /> </p>
-        <p className='equipements'>
-       < Rectangle  
+     <div className='information'>
+      <p className='description'> < Rectangle  
+        titre={'Description'} /> </p>
+    <p className='description' >  < Rectangle
           titre={'Equipements'} /> </p>
-        </div>
-    
+    </div>
     </div>
     )
   }
