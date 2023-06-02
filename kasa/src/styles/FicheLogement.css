@@ -1,13 +1,13 @@
 .information{
-    width: 90%;
+    width: 80%;
     display: flex;
     position: relative;
-    top: 50px;
-    left: -25px;
+    top: 500px;
+    left: 170px;
 }
-.description, .equipements {
-    width: 100%;
-    height: 52px;
-    left: 0px;
-    top: 0px;
+
+.description{
+    width: 50%;
+    position: relative;
+    left: 100px;
 }

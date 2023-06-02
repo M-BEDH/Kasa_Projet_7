@@ -1,10 +1,7 @@
 .rectangles{
     height: 47px;
-    width: 80%;
+    width: 70%;
     border-radius: 5px;
-    position: relative;
-    top: 500px;
-    left: 189px;
     text-align: left;
     background: #FF6060;
     text-align: left;
@@ -14,9 +11,9 @@
 .vector{
     width: 20px;
     height: 10px;
-    position: absolute;
-    top: 20px;
-    margin-left: 94%;
+    margin-left: 93%;
+    position: relative;
+    top: -55px;
 }
 .titreRectangles{
     color: white;
@@ -25,5 +22,6 @@
     font-weight: 500;
     line-height: 45px;
 }
+
 
 
