@@ -1,11 +1,10 @@
 .information{
-    width: 80%;
+    width: 90%;
     display: flex;
     position: relative;
     top: 500px;
-    left: 170px;
+    left: 100px;
 }
-
 .description{
     width: 50%;
     position: relative;
