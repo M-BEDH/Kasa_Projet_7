@@ -1,0 +1,43 @@
+.Collapse{
+    width: 69.9%;
+    position: relative;
+    top: -22px;
+    left: -4px;
+    background-color: #F7F7F7;
+    border-radius: 1px;
+    margin-left: 45px;
+}
+.fermé {
+    position: relative;
+    top: -47px;
+    left: 67%;
+    width: 20px;
+    height: 1px;
+}
+.ouvert{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -30px;
+    left: 92.5%;
+}
+.vectorhaut, .vectorbas{
+    width: 20px;
+    height: 10px;
+    background-color: #FF6060;
+    position: relative;
+    left: -8px;
+    top: -5px;
+}
+.texteCollapse{
+    width: 90%;
+    position: relative;
+    top: -30px;
+    left: 5%;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #ff6060;
+}
