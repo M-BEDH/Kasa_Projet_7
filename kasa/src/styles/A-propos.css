@@ -1,35 +1,13 @@
 .Fiabilite, .Respect, .Securite, .Service{
-    text-align: left;
     background: #FF6060;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 0px;
-    text-align: left;
     border-radius: 5px;
-    margin-bottom: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
- p {
-     margin-left: 20px;
- }
-.texte{
-    height: 91px;
-    width: 978px;
-    position: relative;
-    left: 10px;
-    top: 25px;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    background:#F7F7F7;
-    color: #FF6060;
 }
 .apropos{
     position: relative;
     top: 500px;
     left: 250px;
 }
+
+
+
+

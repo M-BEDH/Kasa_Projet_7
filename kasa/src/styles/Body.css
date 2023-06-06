@@ -1,27 +1,38 @@
+.LogementBody{
+font-family: Montserrat;
+}
 .titreLogement{
-    height: 51px;
-    width: 800px;
-    position: absolute;
-    left: 200px;
-    top: 630px;
-    border-radius: nullpx;
-    font-family: Montserrat;
     font-size:30px;
     font-weight: 500;
-    line-height: 51px;
     letter-spacing: 0em;
+}
+.lieu{
+    position: relative;
+    top: 220px;
+    left: 150px;
     color: #ff6060;
 }
-.location{
-    font-size: 25px;
-    margin-top: 0px;
+.location {
+    font-size: 22px;
 }
-.informations{
-    height: 156px;
-    width: 550px;
+.info{
+    display: flex;
+    justify-content: space-around;
+    width:500px;
     position: relative;
-    left: 200px;
-    top: 400px;
-    border-radius: nullpx;
-    color: rgba(255, 96, 96, 1);
+    top: 240px;
+    left: 130px;
+    color: white;  
+}
+.tags{
+    width: 250px;
+    height: 30px;
+    background-color: #ff6060;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
 }

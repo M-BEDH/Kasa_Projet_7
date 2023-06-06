@@ -1,43 +1,46 @@
 .Collapse{
-    width: 69.9%;
+    width: 70%;
     position: relative;
     top: -22px;
-    left: -4px;
-    background-color: #F7F7F7;
+  /*  background-color: #F7F7F7; */
+    background-color: aqua;
     border-radius: 1px;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 .fermé {
     position: relative;
     top: -47px;
-    left: 67%;
-    width: 20px;
-    height: 1px;
+    left: 67.2%;
+    background-color: #ff6060;
+    border: #ff6060;
 }
 .ouvert{
-    width: 20px;
-    height: 10px;
     position: relative;
-    top: -30px;
-    left: 92.5%;
+    top: -27px;
+    left: 93%;
+    background-color: #ff6060;
+    border: #ff6060;
 }
 .vectorhaut, .vectorbas{
     width: 20px;
     height: 10px;
-    background-color: #FF6060;
+    background-color: #ff6060;
     position: relative;
-    left: -8px;
     top: -5px;
 }
 .texteCollapse{
     width: 90%;
     position: relative;
     top: -30px;
-    left: 5%;
+    left: 4%;
     font-family: Montserrat;
     font-size: 26px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
     color: #ff6060;
+}
+button{
+    width: 0px;
+    height: 0px;
 }
