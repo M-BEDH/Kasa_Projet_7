@@ -8,21 +8,32 @@ function Apropos(){
   
   return (
     <div>
-    <Section1 img={IMG} titre={""} />
+    <Section1 img={IMG} titre={' '} />
     
-    <div className='apropos'>
+      <div className='apropos'>
+      
     < Rectangle  
-    titre={'Fiabilité'} />
-        < Collapse
-        texte ={''}
-        />
+          titre={'Fiabilité'} />
+    < Collapse
+            texte={' '} />
+    
     < Rectangle  
     titre={'Respect'} />
-    < Collapse />
+    < Collapse
+    texte={'La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.'}
+        />
+        
     < Rectangle  
     titre={'Service'} />
+    < Collapse 
+    texte={' '} 
+        />
+        
     < Rectangle  
-    titre ={'Sécurité'} />
+    titre={'Sécurité'} />
+    < Collapse 
+    texte={' '}
+    />
     </div>
     </div>
     

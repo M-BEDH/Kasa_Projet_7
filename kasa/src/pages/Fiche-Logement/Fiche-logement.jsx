@@ -1,45 +1,38 @@
  import {useParams} from 'react-router-dom'
-import Carroussel from '../../components/Carroussel'
-import Body from '../../components/_body'
-import LogementsList from '../../data/myJson.json'
-import Rectangle from '../../components/_Rectangles'
-import '../../styles/FicheLogement.css'
-
-function FicheLogement() {
+ import Body from '../../components/_body'
+ import LogementsList from '../../data/myJson.json'
+ import Rectangle from '../../components/_Rectangles'
+ import '../../styles/FicheLogement.css'
+ import Collapse from '../../components/Collapse'
+ 
+ function FicheLogement() {
   const params = useParams()
-  
   const logement = LogementsList.find(logement => logement.id === params.id)
-  return (
+  const equipements = (logement.equipments)
+  const description = (logement.description)
+
+    
+   return (
     <div>
-    < Carroussel
-    
-    />
-    < Body 
-    
-    id={logement.id}
-    titre={logement.title}  
-    location={logement.location}  
-    tags={logement.tags}
-    equipements={logement.equipments}
-    description={logement.description}
-    />
+
+    < Body  />
     
     <div className='information'>
-    
-    <p className='description'>
+    <div className='description'>
     < Rectangle  
-    
-    titre={'Description'}
-    
-    /> </p>
-    
-    <p className='description' >
-    < Rectangle
-    titre={'Equipements'}
-    
-    /> </p>
-    </div>
-    
+    titre={'Description'} />
+    < Collapse
+    texte={description} />
+            </div>  
+            
+    <div className='description'> 
+    < Rectangle  
+    titre={'Equipements'} />
+    < Collapse
+    texte={equipements} />
+    </div>  
+       </div>
+       
     </div>
     )
   }
@@ -47,4 +40,3 @@ function FicheLogement() {
   export default FicheLogement
   
 
-  
