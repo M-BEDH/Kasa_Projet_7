@@ -1,4 +1,4 @@
-import '../styles/_Rectangles.css'
+import '../styles/_rectangles.css'
 
 function Rectangle({ titre }) {
 

@@ -1,6 +1,5 @@
-import '../styles/Body.css'
+import '../styles/_body.css'
 import Carroussel from './Carroussel'
-import '../styles/Body.css'
 import LogementsList from '../data/myJson.json'
  
 function Body({ id, titre, location, pictures }) {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import VectorBas from '../assets/vectorBas.png'
 import VectorHaut from '../assets/vectorHaut.png'
-import '../styles/_Rectangles.css'
+import '../styles/_rectangles.css'
 import '../styles/Collapse.css'
 
 function Collapse({ texte }) {
