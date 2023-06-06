@@ -1,7 +1,7 @@
 import IMG from '../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash.png'
 import Section1 from "../../components/_section1"
 import '../../styles/A-propos.css'
-import Rectangle from '../../components/_Rectangles'
+import Rectangle from '../../components/_rectangles'
 import Collapse from '../../components/Collapse'
 
 function Apropos(){

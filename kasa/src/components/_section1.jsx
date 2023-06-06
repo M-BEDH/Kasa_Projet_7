@@ -1,4 +1,4 @@
-import '../styles/_Section1.css'
+import '../styles/_section1.css'
 
 function Section1({ img, titre }) {
   return (

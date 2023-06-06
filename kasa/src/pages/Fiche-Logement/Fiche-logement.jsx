@@ -1,7 +1,7 @@
  import {useParams} from 'react-router-dom'
  import Body from '../../components/_body'
  import LogementsList from '../../data/myJson.json'
- import Rectangle from '../../components/_Rectangles'
+ import Rectangle from '../../components/_rectangles'
  import '../../styles/FicheLogement.css'
  import Collapse from '../../components/Collapse'
  
