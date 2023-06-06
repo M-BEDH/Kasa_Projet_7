@@ -1,17 +1,30 @@
 import '../styles/Carroussel.css'
-import LogementsList from '../data/myJson.json'
+import VectorG from '../assets/vectorGauche.png'
+import VectorD from '../assets/vectorDroite.png'
 
+function handelClick()
+{
+console.log ('je change de photo')
+}
 
-function Carroussel () {
-  const logement = LogementsList.find(logement => logement.id) 
-  let imagesLogement = (logement.id).pictures
-  const images = imagesLogement
+function Carroussel (images) {
   
-  return (() =>
+  return(
     <div className='carroussel'>
-     {images}
+      <div className='vectorG' onClick={handelClick}>
+        
+         <img src={VectorG} alt="fleche precedente" className="vectorGauche" />
+      </div>
+
+      <img src={images} alt="Photos de l'appartement" className="appt" />
+
+      <div className='verctorD' onClick={handelClick}>
+        <img src={VectorD} alt="fleche suivante" className="vectorDroite" />
+      </div>
     </div>
     )
   }
   
-  export default Carroussel
+  
+export default Carroussel
+
