@@ -5,38 +5,43 @@
  import '../../styles/FicheLogement.css'
  import Collapse from '../../components/Collapse'
  
- function FicheLogement() {
-  const params = useParams()
-  const logement = LogementsList.find(logement => logement.id === params.id)
-  const equipements = (logement.equipments)
-  const description = (logement.description)
-
-    
-   return (
-    <div>
-
-    < Body  />
-    
-    <div className='information'>
-    <div className='description'>
-    < Rectangle  
-    titre={'Description'} />
-    < Collapse
-    texte={description} />
-            </div>  
-            
-    <div className='description'> 
-    < Rectangle  
-    titre={'Equipements'} />
-    < Collapse
-    texte={equipements} />
-    </div>  
-       </div>
-       
-    </div>
-    )
-  }
-  
-  export default FicheLogement
-  
-
+function FicheLogement() {
+        const params = useParams()
+        const logement = LogementsList.find(logement => logement.id === params.id)
+        const equipements = (logement.equipments)
+        const description = (logement.description)
+        
+        return (
+                <div>
+                
+                        < Body
+                                titre={logement.title}
+                                location={logement.location}
+                                rate={logement.rating}
+                                Host={logement.host}
+                        />
+                
+                        <div className='information'>
+                                <div className='description'>
+                                        < Rectangle
+                                                titre={'Description'} />
+                                        < Collapse
+                                                titre={'Description'}
+                                                texte={description} />
+                                </div>
+                
+                                <div className='description'>
+                                        < Rectangle
+                                                titre={'Equipements'} />
+                                        < Collapse
+                                                titre={'Equipements'}
+                                                texte={equipements} />
+                                </div>
+                        </div>
+                
+   </div>
+        )
+}
+        export default FicheLogement
+        
+        
