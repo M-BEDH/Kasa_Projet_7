@@ -3,25 +3,33 @@ import VectorG from '../assets/vectorGauche.png'
 import VectorD from '../assets/vectorDroite.png'
 import { useState } from 'react'
 
-function handelClick() {
 
-}
-
-function Carroussel(images) {
-  const img = <img src={images[0]} alt="interieur de l\'sappartement" className="apptInt" />
+function Carroussel({images}) {
+  const img = <img src={images} alt="interieur de l'appartement" className="apptInt" />
   console.log('Carroussel :' + images)
   
-  const [imageLgement, setImageLogement] = useState(images[0])
+   const [current, setCurrent] = useState(0);
+   const length = images.length;
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+
 
   return (
     <div className='carroussel'>
-    <div className='vectorG' onClick={() => (setImageLogement -1)}>
+    <div className='vectorG' onClick={prevSlide}>
     <img src={VectorG} alt="fleche precedente" className="vectorGauche" />
     </div>
     
-    <div> {img} {imageLgement} </div>
+    <div> {img}  </div>
     
-    <div className='verctorD' onClick={() => handelClick( setImageLogement +1)}>
+    <div className='verctorD' onClick={nextSlide}>
     <img src={VectorD} alt="fleche suivante" className="vectorDroite" />
     </div>
     </div>

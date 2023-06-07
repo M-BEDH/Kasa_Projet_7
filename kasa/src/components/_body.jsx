@@ -1,9 +1,8 @@
 import '../styles/_body.css'
 
-
-function Body({ id, titre, location,tags, name, picture, stars }) {
+function Body({ id, titre, location, tags, name, profilePicture, stars }) {
   console.log('Body :' + stars)
-  const img = <img src={picture} alt="propriètaire" className="propriètaire" />
+  const img = <img src={profilePicture} alt="propriètaire" className="propriètaire" />
 
   return (
     <div className="LogementBody" id={id}>
@@ -13,9 +12,9 @@ function Body({ id, titre, location,tags, name, picture, stars }) {
         <span className='location'> {location} </span>
       </div>
       <div className='info'>
-        <p className='tags'>
-          
-          {tags} </p>
+        <div className='tags'>
+         {tags}
+           </div>
     
       </div>
       <div className='Host'>
