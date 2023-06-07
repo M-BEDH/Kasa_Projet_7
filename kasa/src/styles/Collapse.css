@@ -1,23 +1,21 @@
 .Collapse{
-    width: 70%;
+    height: auto;
     position: relative;
-    top: -22px;
-  /*  background-color: #F7F7F7; */
-    background-color: aqua;
-    border-radius: 1px;
-    margin-left: 40px;
+    top: -71px;
+    background-color: #F7F7F7; 
+    border-radius: 3px;
 }
 .fermé {
     position: relative;
-    top: -47px;
-    left: 67.2%;
+    top: -27px;
+    left: 94%;
     background-color: #ff6060;
     border: #ff6060;
 }
 .ouvert{
     position: relative;
     top: -27px;
-    left: 93%;
+    left: 94%;
     background-color: #ff6060;
     border: #ff6060;
 }
@@ -31,10 +29,10 @@
 .texteCollapse{
     width: 90%;
     position: relative;
-    top: -30px;
-    left: 4%;
+    top: -35px;
+    left: 3%;
     font-family: Montserrat;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;

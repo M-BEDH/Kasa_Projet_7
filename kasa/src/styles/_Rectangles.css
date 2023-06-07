@@ -1,13 +1,11 @@
 .rectangles{
     height: 47px;
-    width: 70%;
-    margin-left: 40px;
+    margin-left: 0px;
     border-radius: 5px;
     text-align: left;
     background: #FF6060;
     text-align: left;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 .titreRectangles{
     color: white;

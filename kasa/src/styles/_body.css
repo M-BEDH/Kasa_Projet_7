@@ -20,7 +20,7 @@ font-family: Montserrat;
     justify-content: space-around;
     width:500px;
     position: relative;
-    top: 240px;
+    top: 250px;
     left: 130px;
     color: white;  
 }
@@ -35,4 +35,27 @@ font-family: Montserrat;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+}
+.Host{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 86%;
+    top: 666px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    color: #000;
+}
+.nom{
+    position: relative;
+    left: -100px;
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+
+
 }

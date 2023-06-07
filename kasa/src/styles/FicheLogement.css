@@ -1,10 +1,12 @@
 .information{
+    width: 85%;
     display: flex;
-    margin-left: 115px;
+    margin-left: 155px;
     position: relative;
-    top: 240px;
+    top: 250px;
 }
 .description {
     width: 100%;
+    margin-right: 50px;
 }
 

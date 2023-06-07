@@ -3,9 +3,13 @@
     border-radius: 5px;
 }
 .apropos{
+    width: 70%;
     position: relative;
     top: 500px;
-    left: 250px;
+    left: 80px;
+}
+.pagePropos{
+    margin-left: 270px;
 }
 
 
