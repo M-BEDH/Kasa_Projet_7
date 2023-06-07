@@ -1,5 +1,9 @@
 .LogementBody{
+width: 83%;
 font-family: Montserrat;
+position: relative;
+top: 200px;
+margin-left: 150px;
 }
 .titreLogement{
     font-size:30px;
@@ -7,49 +11,39 @@ font-family: Montserrat;
     letter-spacing: 0em;
 }
 .lieu{
-    position: relative;
-    top: 220px;
-    left: 150px;
+    width: 85%;
     color: #ff6060;
 }
 .location {
     font-size: 22px;
 }
-.info{
+.info {
     display: flex;
     justify-content: space-around;
-    width:500px;
+    width: 500px;
     position: relative;
-    top: 250px;
-    left: 130px;
-    color: white;  
+    top: 30px;
+    color: white;
 }
 .tags{
-    width: 250px;
-    height: 30px;
-    background-color: #ff6060;
-    margin: 20px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: center;
+  display: flex;  
 }
 .Host img{
     position: absolute;
     width: 64px;
     height: 64px;
-    left: 86%;
-    top: 666px;
+    left: 95%;
+    top: 15px;
     border-radius: 50%;
     background: #C4C4C4;
     color: #000;
 }
 .nom{
-    position: relative;
-    left: -15%;
-    top: 50px;
+    height: 52px;
+    width: 93px;
+    position: absolute;
+    top: 5px;
+    left: 87.5%;
     color: #ff6060;
     font-family: Montserrat;
     font-size: 18px;
@@ -57,14 +51,13 @@ font-family: Montserrat;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: right;
+    font-family: Montserrat;
 }
 .stars{
     height: 36px;
     width: 196px;
-    left: 1144px;
-    top: 652px;
+    left: 87.5%;
     border-radius: 0px;
-    position: relative;
-    top: 130px;
+   position: relative;
     background-color: aquamarine;
 }
