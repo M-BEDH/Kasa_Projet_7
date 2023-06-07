@@ -36,7 +36,7 @@ font-family: Montserrat;
     letter-spacing: 0em;
     text-align: center;
 }
-.Host{
+.Host img{
     position: absolute;
     width: 64px;
     height: 64px;
@@ -48,7 +48,8 @@ font-family: Montserrat;
 }
 .nom{
     position: relative;
-    left: -100px;
+    left: -15%;
+    top: 50px;
     color: #ff6060;
     font-family: Montserrat;
     font-size: 18px;
@@ -56,6 +57,14 @@ font-family: Montserrat;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: right;
-
-
+}
+.stars{
+    height: 36px;
+    width: 196px;
+    left: 1144px;
+    top: 652px;
+    border-radius: 0px;
+    position: relative;
+    top: 130px;
+    background-color: aquamarine;
 }

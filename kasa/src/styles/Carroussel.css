@@ -5,7 +5,7 @@
     left: 150px;
     top: 200px;
     border-radius: 25px;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(224, 240, 248); 
 }
 .vectorGauche{
     height: 79px;
@@ -21,4 +21,11 @@
     top: 168px;
     left: 93%;
 }
-
+img.apptInt{
+    height: 415px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+}
