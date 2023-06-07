@@ -3,29 +3,30 @@ import VectorG from '../assets/vectorGauche.png'
 import VectorD from '../assets/vectorDroite.png'
 import { useState } from 'react'
 
-//function handelClick()
-//{
-//console.log ('je change de photo')
-//}
+function handelClick() {
+
+}
 
 function Carroussel(images) {
-  const [picturesLogement, setPicturesLogement] = useState(0)
+  const img = <img src={images[0]} alt="interieur de l\'sappartement" className="apptInt" />
+  console.log('Carroussel :' + images)
+  
+  const [imageLgement, setImageLogement] = useState(images[0])
 
   return (
     <div className='carroussel'>
-      <div className='vectorG' onClick={() => setPicturesLogement}>
-        
-        <img src={VectorG} alt="fleche precedente" className="vectorGauche" />
-      </div>
-
-      <img src={images} alt="Photos de l'appartement" className="appt" />
-
-      <div className='verctorD' onClick={() => picturesLogement}>
-        <img src={VectorD} alt="fleche suivante" className="vectorDroite" />
-      </div>
+    <div className='vectorG' onClick={() => (setImageLogement -1)}>
+    <img src={VectorG} alt="fleche precedente" className="vectorGauche" />
     </div>
-  )
-}
+    
+    <div> {img} {imageLgement} </div>
+    
+    <div className='verctorD' onClick={() => handelClick( setImageLogement +1)}>
+    <img src={VectorD} alt="fleche suivante" className="vectorDroite" />
+    </div>
+    </div>
+    )
+  }
   
-export default Carroussel
-
+  export default Carroussel
+  
