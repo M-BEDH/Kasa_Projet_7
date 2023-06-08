@@ -4,10 +4,11 @@
     top: -71px;
     background-color: #F7F7F7; 
     border-radius: 10px;
+    padding-bottom: 30px;
 }
-.ouvert, .fermé {
+.vectorOuvert, .vectorFermé {
     position: relative;
-    top: -27px;
+    top: -55px;
     left: 93%;
     background-color: #ff6060;
     border: #ff6060;
@@ -22,8 +23,8 @@
 .texteCollapse{
     width: 90%;
     position: relative;
-    top: -15px;
     left: 3%;
+    top: -10px;
     font-family: Montserrat;
     font-size: 25px;
     font-weight: 400;

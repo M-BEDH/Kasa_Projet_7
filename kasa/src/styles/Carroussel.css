@@ -3,29 +3,30 @@
     height: 415px;
     position: relative;
     left: 150px;
-    top: 200px;
+    top: 270px;
     border-radius: 25px;
-    background-color: rgb(224, 240, 248); 
 }
 .vectorGauche{
     height: 79px;
     width: 46px;
-    position: relative;
+    position: absolute;
     left: 2%;
-    top: 168px;
+    top: 70px;
+    z-index: 100;
 }
 .vectorDroite{
     height: 79px;
     width: 46px;
     position: absolute;
-    top: 168px;
+    top: 70px;
     left: 93%;
+    z-index: 100;
 }
 img.apptInt{
+    width: 100%;
     height: 415px;
-    position: relative;
-    left: 150px;
-    top: 200px;
+    position:absolute;
+    top: -100px;
     border-radius: 25px;
     object-fit: cover;
 }
