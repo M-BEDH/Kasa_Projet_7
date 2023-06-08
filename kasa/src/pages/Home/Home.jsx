@@ -3,7 +3,6 @@ import Gallery from '../../components/Gallery'
 import IMG from '../../assets/IMG.png'
 import '../../styles/Cart.css'
 
-
 function Home() {
   return (
     <div>
