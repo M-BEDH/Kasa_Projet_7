@@ -68,6 +68,8 @@
     font-family: Montserrat;
 }
 .stars{
+    height: 36px;
+    width: 196px;
     border-radius: 0px;
     position: absolute;
     top: 120px;
@@ -79,5 +81,5 @@ img.etoile{
     border-radius: 0px;
     font-size: 10px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 5px;
 }

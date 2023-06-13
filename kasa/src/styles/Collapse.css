@@ -8,8 +8,8 @@
 }
 .vectorOuvert, .vectorFermé {
     position: relative;
-    top: -53px;
-    left: 94%;
+    top: -55px;
+    left: 93%;
     background-color: #ff6060;
     border: #ff6060;
 }
@@ -31,24 +31,4 @@
     line-height: 34px;
     letter-spacing: 0em;
     color: #ff6060;
-    padding-bottom: 15px;
-}
-@media screen and (min-width: 375px) and (max-width: 1440px) {
-.vectorOuvert, .vectorFermé{
-    position: relative;
-    left: 85%;
-}
-.texteCollapse{
-    width: 98%;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-bottom: 0px;
-    position: relative;
-    top: -20px;
-}
-
-
 }

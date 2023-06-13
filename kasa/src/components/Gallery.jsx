@@ -5,18 +5,18 @@ import '../styles/Gallery.css'
 
 
 function Gallery() {
-  
+
   return LogementsList.map((logement) => (
     <NavLink key={logement.id} to={"/logement/" + logement.id + "/#"}>
-    <div className='Gallery'>
+      <div className='Gallery'>
     <Cart
     key={logement.id}
     id={logement.id}
     image={logement.cover}
     titre={logement.title}
-    /> 
-    </div>
-    </NavLink>
+        /> 
+        </div>
+      </NavLink>
     ))
   }
-  export default Gallery
+   export default Gallery
