@@ -9,24 +9,24 @@ import { NavLink } from 'react-router-dom'
 function Header() {
   const logoKasa = (
     <div>
-      <img src={logoK} alt="lettre K" className="logoK" />
-      <img src={logo} alt="kasa" className="logo" />
-      <img src={logo1} alt="kasa" className="logo1" />
-      <img src={logoS} alt="lettre S" className="logoS" />
-      <img src={logoA} alt="lettre A" className="logoA" />
+    <img src={logoK} alt="lettre K" className="logoK" />
+    <img src={logo} alt="kasa" className="logo" />
+    <img src={logo1} alt="kasa" className="logo1" />
+    <img src={logoS} alt="lettre S" className="logoS" />
+    <img src={logoA} alt="lettre A" className="logoA" />
     </div>
-  )
-  return (
-    <div className="kasa-header">
+    )
+    return (
+      <div className="kasa-header">
       <h1> {logoKasa}</h1>
       <nav className="nav">
-         <NavLink to={"/"}>
-        <li className="Accueil">Accueil</li> </NavLink>
-         <NavLink to={"/à-propos/"}>
-        <li className="Apropos">A Propos</li> </NavLink>
+      <NavLink to={"/"}>
+      <li className="Accueil">Accueil</li> </NavLink>
+      <NavLink to={"/à-propos/"}>
+      <li className="Apropos">A Propos</li> </NavLink>
       </nav>
-    </div>
-  )
-}
-
-export default Header
+      </div>
+      )
+    }
+    
+    export default Header

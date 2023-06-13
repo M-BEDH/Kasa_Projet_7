@@ -5,13 +5,13 @@ import Footer from "./Footer";
 function Layout({children}) {
     return (
         <>
-            <Header />
-            <main>{children}</main>
-            <Footer />
+        <Header />
+        <main>{children}</main>
+        <Footer />
         </>
-    );
-}
-
-export default Layout
-
-
+        );
+    }
+    
+    export default Layout
+    
+    
