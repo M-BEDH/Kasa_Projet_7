@@ -1,12 +1,12 @@
 .kasa-header {
-    color: #FF6060;
     position: absolute;
     width: 80%;
     height: 68px;
     left: 10%;
     top: 40px;
-    display: flex;
-    justify-content: space-between;
+}
+h1{
+    width: 80%;
 }
 .logoK{
     position: absolute;
@@ -14,6 +14,8 @@
     right: 95.62%;
     top: 0%;
     bottom: 8.45%;
+    height: 62px;
+    width: 54px;
 }
 .logo {
     position: absolute;
@@ -21,6 +23,8 @@
     right: 91.43%;
     top: 21.53%;
     bottom: 0%; 
+    height: 53px;
+    width: 46px;
 }
 .logo1{
     position: absolute;
@@ -28,6 +32,8 @@
     right: 80%;
     top: 68.66%;
     bottom: 8.17%;
+    height: 15px;
+    width: 5px;
 }
 .logoS{
     position: absolute;
@@ -35,6 +41,8 @@
     right: 87.24%;
     top: 21.53%;
     bottom: 7.89%;
+    height: 47px;
+    width: 39px;
 }
 .logoA{
     position: absolute;
@@ -42,6 +50,8 @@
     right: 83.04%;
     top: 21.25%;
     bottom: 7.9%;
+    height: 48px;
+    width: 40px;
 }
 .nav {
     position: absolute;
@@ -93,6 +103,86 @@ a{
     text-decoration: none;
 }
 
-@media sreen{
+/* ************* Media query ************ */
+@media screen and (min-width: 375px) and ( max-width: 1440px)
+{
+    .kasa-header {
+        position: absolute;
+        width: 50%;
+        height: 58px;
+        left: 20px;
+        top: 40px;
+    }
+    .logoK {
+        position: absolute;
+        bottom: 8.45%;
+        height: 43px;
+        width: 37px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
     
+    .logo {
+        position: absolute;
+        left: 15%;
+        top: 21.53%;
+        bottom: 0%;
+        height: 36px;
+        width: 31px;
+        left: 41px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    
+    .logo1 {
+        position: absolute;
+        left: 23%;
+        top: 70%;
+        bottom: 8.17%;
+        height: 10px;
+        width: 3px;
+        left: 63px;
+        top: 32px;
+        border-radius: 0px;
+    }
+    
+    .logoS {
+        position: absolute;
+        left: 28%;
+        top: 21.53%;
+        bottom: 7.89%;
+        height: 33px;
+        width: 27px;
+        left: 81px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    
+    .logoA {
+        position: absolute;
+        left: 40%;
+        top: 21.25%;
+        bottom: 7.9%;
+        height: 33px;
+        width: 28px;
+        left: 116px;
+        top: 9px;
+        border-radius: 0px;
+    }
+    .Accueil{
+        height: 17px;
+        width: 59px;
+        font-size: 17px ;
+    }
+    .Apropos{
+        height: 17px;
+        font-size: 17px;
+    }
+        .nav {
+        position: relative;
+        top: -10px;
+        display: flex;
+       
+        }
 }
