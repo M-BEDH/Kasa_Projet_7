@@ -6,7 +6,7 @@ import '../../styles/Cart.css'
 function Home() {
   return (
     <div>
-    <Section1 img={IMG} titre={'Chez vous partout et ailleurs!'} />
+    <Section1 img={IMG} titre={'Chez vous, partout et ailleurs!'} />
     <div className='gallery'>  <Gallery /> </div>
     </div>
     )
