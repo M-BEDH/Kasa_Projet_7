@@ -36,15 +36,15 @@
 
 /* ************* Media query ************ */
 @media screen and (min-width: 375px) and (max-width: 1440px) {
-.vectorOuvert, .vectorFermé {
+    .vectorOuvert, .vectorFermé {
         position: relative;
         left: 85%;
         top: -55px;
     }
-.Collapse{
-   top: -60px;
-}
-   .texteCollapse {
+    .Collapse{
+        top: -60px;
+    }
+    .texteCollapse {
         font-size: 12px;
         font-weight: 400;
         line-height: 19px;
@@ -53,6 +53,4 @@
         position: relative;
         top: -20px;
     }
-
-
 }

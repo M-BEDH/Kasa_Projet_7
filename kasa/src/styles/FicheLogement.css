@@ -1,21 +1,21 @@
 .information{
-    width: 85%;
-    display: flex;
-    margin-left: 155px;
-    position: relative;
-    top: 100px;
+  width: 85%;
+  display: flex;
+  margin-left: 155px;
+  position: relative;
+  top: 100px;
 }
 .description {
-    width: 100%;
-    margin-right: 50px;
+  width: 100%;
+  margin-right: 50px;
 }
 /* ************* Media query ************ */
 @media screen and (min-width: 375px) and (max-width: 1440px) {
-.information{
-  width: 92%;
-  margin-left: 10px;
-  top: 0px;
-  display: flex;
-  flex-direction: column;
-}
+  .information{
+    width: 92%;
+    margin-left: 10px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 }

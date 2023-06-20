@@ -8,7 +8,7 @@
     top: 500px;
 }
 .pagePropos{
-   margin-left: 330px;
+    margin-left: 330px;
 }
 
 /* ************* Media query ************ */
@@ -20,9 +20,9 @@
         padding-top: 20px;
         overflow-y:auto;
         overflow-x: hidden;
-        }
     }
- 
+}
+
 
 
 

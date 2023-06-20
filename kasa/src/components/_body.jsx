@@ -38,7 +38,7 @@ function Body({id, titre, location, tags, name, profilePicture, stars }) {
       {name} </div>
       <div className='stars'> 
       {starsNote} 
-    
+      
       <div className='Profil'> {img} </div>
       </div>
       </div>

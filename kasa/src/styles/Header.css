@@ -107,7 +107,7 @@ a{
         top: 40px;
     }
     .responsiveAccueil, .responsiveApropos{
-       display: inline;
+        display: inline;
         font-size: 16px;
         font-weight: 400;
         color: #FF6060;
@@ -128,7 +128,6 @@ a{
         top: 0px;
         border-radius: 0px;
     }
-    
     .logo {
         position: absolute;
         left: 15%;
@@ -140,7 +139,6 @@ a{
         top: 10px;
         border-radius: 0px;
     }
-    
     .logo1 {
         position: absolute;
         left: 23%;
@@ -152,7 +150,6 @@ a{
         top: 32px;
         border-radius: 0px;
     }
-    
     .logoS {
         position: absolute;
         left: 28%;
@@ -164,7 +161,6 @@ a{
         top: 10px;
         border-radius: 0px;
     }
-    
     .logoA {
         position: absolute;
         left: 40%;
@@ -176,18 +172,13 @@ a{
         top: 9px;
         border-radius: 0px;
     }
-    
     .Accueil {
         display: none;
     }
-    
     .Apropos {
         display: none;
     }
-    
     .nav {
         position: relative;
-    
-    
     }
 }

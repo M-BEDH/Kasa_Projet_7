@@ -8,7 +8,7 @@ function Collapse({ texte, titre}) {
   const [isOpen, setIsOpen] = useState(false)
   
   return isOpen ? (
-
+    
     < div className='Collapse' >
     < Rectangle titre ={titre} />
     < button className='vectorOuvert' onClick={() => setIsOpen(false)}>

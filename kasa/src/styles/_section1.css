@@ -8,7 +8,7 @@
     position: absolute;
 }
 .section1{
-   margin-bottom: 0%;
+    margin-bottom: 0%;
 }
 .section1 img{
     width: 100%;
@@ -39,7 +39,7 @@
 
 /* ************* Media query ************ */
 @media screen and (min-width: 375px) and (max-width: 1440px) {
-
+    
     .background {
         height: 111px;
         width: 335px;
@@ -47,14 +47,14 @@
         top: 130px;
         overflow: hidden;
     }
-        .text{
+    .text{
         width: 222px;
         font-size: 24px;
         line-height: 24px;
         font-weight: 400;
         left: 30px;
-        }
+    }
     .section1 img{
         top: -22px;
-}
+    }
 }

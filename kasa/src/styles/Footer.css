@@ -10,11 +10,11 @@
 .kasa-Footer{
     padding-top: 50px;
 }
- .texte_footer{
-   position: relative;
-   left: 37%;
-   top: 20px;
- }
+.texte_footer{
+    position: relative;
+    left: 37%;
+    top: 20px;
+}
 .logoK-footer{
     height: 35px;
     width: 31px;
@@ -55,7 +55,7 @@
 
 /* ****************Media query***************** */
 @media screen and (min-width: 375px) and (max-width: 1440px) {
-
+    
     .kasa-footer {
         position: relative;
         left: 0px;
@@ -70,27 +70,27 @@
         width: 27px;
         height: 33px;
     }
-
+    
     .logo-footer {
         width: 24px;
         height: 25px;
     }
-
+    
     .logo1-footer {
         position: relative;
         left: 169px;
     }
-
+    
     .logoS-footer {
         width: 19px;
         height: 21px;
     }
-
+    
     .logoA-footer {
         width: 20px;
         height: 21px;
     }
-
+    
     .texte_footer {
         width: 44%;
         position: relative;

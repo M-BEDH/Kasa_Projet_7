@@ -40,26 +40,26 @@ img.appt{
 
 /* ************* Media query ************ */
 @media screen and (min-width: 375px) and (max-width: 1440px) {
-
-.cartLogement{
-    width: 245px;
-    height: 208px;
-    margin-left: 12px;
-    padding: 45px;
-    margin-top: 20px;
-}
-.gallery{
-background-color: white;
-left: 0;
-top: 250px;
-}
-img.appt {
-    width: 245px;
-    height: 208px;
-    margin: 0;
-}
-.titre{
-    font-size: 13px;
-    padding-top: 5px;
-}
+    
+    .cartLogement{
+        width: 245px;
+        height: 208px;
+        margin-left: 12px;
+        padding: 45px;
+        margin-top: 20px;
+    }
+    .gallery{
+        background-color: white;
+        left: 0;
+        top: 250px;
+    }
+    img.appt {
+        width: 245px;
+        height: 208px;
+        margin: 0;
+    }
+    .titre{
+        font-size: 13px;
+        padding-top: 5px;
+    }
 }
