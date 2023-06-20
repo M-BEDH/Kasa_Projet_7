@@ -9,7 +9,7 @@ import IMG from '../assets/logo_footer.png'
 
 function Footer() {
   const logoKasa = (
-    <div>
+    <div className='kasa-Footer'>
       <img src={logoK} alt="lettre K" className="logoK-footer" />
       <img src={logo} alt="kasa" className="logo-footer" />
       <img src={logo1} alt="kasa" className="logo1-footer" />
@@ -20,7 +20,7 @@ function Footer() {
   return (
     <div className="kasa-footer">
       <h1> {logoKasa}</h1>
-      <img src={IMG} alt="all right reserved kasa" className="logo_footer" />
+      <img src={IMG} alt="all right reserved kasa" className="texte_footer" />
     </div>
   )
 }

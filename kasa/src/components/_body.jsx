@@ -1,7 +1,7 @@
 import '../styles/_body.css'
 import logoEtoileActive from '../assets/vectorEtoileActive.png'
 import logoEtoileInactive from '../assets/vectorEtoileInactive.png'
-
+import '../styles/index.css'
 
 function Body({id, titre, location, tags, name, profilePicture, stars }) {
   const img = <img src={profilePicture} alt="propriètaire" className="propriètaire" />
@@ -27,25 +27,21 @@ function Body({id, titre, location, tags, name, profilePicture, stars }) {
     </div>
     
     <div className='info'>
-    <div className='TAGS'>
     {tags.map((tags, index) => (
       <div className='tags' key={index}>
-      <p index={index.tags}>{tags} </p>
+      {index.tags} {tags} 
       </div>
       ))}
       </div>
-      </div>
-      
       <div className='Host'>
       <div className='nom'>
       {name} </div>
       <div className='stars'> 
       {starsNote} 
-      
+    
+      <div className='Profil'> {img} </div>
       </div>
-      <div> {img} </div>
       </div>
-      
       </div>
       )
     }

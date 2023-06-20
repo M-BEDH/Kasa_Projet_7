@@ -8,10 +8,6 @@ function Section1({ img, titre }) {
         <img src={img} alt="paysage bord de mer" className="section1 img" />
         <p className="text">{titre}</p>{' '}
       </h2>
-      <style>
-        @import
-        url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-      </style>
     </div>
   )
 }
