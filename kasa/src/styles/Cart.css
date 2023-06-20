@@ -1,5 +1,3 @@
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-
 .cartLogement{
     width: 240px;
     height: 240px;
@@ -37,4 +35,31 @@ img.appt{
     background-color: #F7F7F7;
     border-radius: 25px;
     padding-bottom: 50px;
+}
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+
+.cartLogement{
+    width: 245px;
+    height: 208px;
+    margin-left: 12px;
+    padding: 45px;
+    margin-top: 20px;
+}
+.gallery{
+background-color: white;
+left: 0;
+top: 250px;
+}
+img.appt {
+    width: 245px;
+    height: 208px;
+    margin: 0;
+}
+.titre{
+    font-size: 13px;
+    padding-top: 5px;
+}
 }

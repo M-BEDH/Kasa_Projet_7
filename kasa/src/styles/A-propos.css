@@ -3,15 +3,26 @@
     border-radius: 5px;
 }
 .apropos{
-    width: 70%;
+    width: 1023px;
     position: relative;
     top: 500px;
-    left: 8%;
 }
 .pagePropos{
-    margin-left: 270px;
+   margin-left: 330px;
 }
 
+/* ************* Media query ************ */
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    .apropos {
+        width: 335px;
+        left: -315px;
+        top: 300px;
+        padding-top: 20px;
+        overflow-y:auto;
+        overflow-x: hidden;
+        }
+    }
+ 
 
 
 

@@ -52,6 +52,9 @@
     display: flex;
     justify-content: space-between;
 }
+.responsiveAccueil, .responsiveApropos{
+    display: none;
+}
 .Accueil{
     width: 136px;
     height: 34px;
@@ -93,6 +96,98 @@ a{
     text-decoration: none;
 }
 
-@media sreen{
+/* ************* Media query ************ */
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    .kasa-header {
+        position: absolute;
+        width: auto;
+        justify-content: space-between;
+        height: 58px;
+        left: 10px;
+        top: 40px;
+    }
+    .responsiveAccueil, .responsiveApropos{
+       display: inline;
+        font-size: 16px;
+        font-weight: 400;
+        color: #FF6060;
+        margin-left: 30px;
+    }
+    .responsiveAccueil{
+        text-decoration: underline #FF6060;
+    }
+    .responsiveAccueil:hover, .responsiveApropos:hover{
+        text-decoration: underline blueviolet;
+    }
+    .logoK {
+        position: absolute;
+        bottom: 8.45%;
+        height: 43px;
+        width: 37px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
     
+    .logo {
+        position: absolute;
+        left: 15%;
+        top: 21.53%;
+        bottom: 0%;
+        height: 36px;
+        width: 31px;
+        left: 41px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    
+    .logo1 {
+        position: absolute;
+        left: 23%;
+        top: 70%;
+        bottom: 8.17%;
+        height: 10px;
+        width: 3px;
+        left: 63px;
+        top: 32px;
+        border-radius: 0px;
+    }
+    
+    .logoS {
+        position: absolute;
+        left: 28%;
+        top: 21.53%;
+        bottom: 7.89%;
+        height: 33px;
+        width: 27px;
+        left: 81px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    
+    .logoA {
+        position: absolute;
+        left: 40%;
+        top: 21.25%;
+        bottom: 7.9%;
+        height: 33px;
+        width: 28px;
+        left: 116px;
+        top: 9px;
+        border-radius: 0px;
+    }
+    
+    .Accueil {
+        display: none;
+    }
+    
+    .Apropos {
+        display: none;
+    }
+    
+    .nav {
+        position: relative;
+    
+    
+    }
 }

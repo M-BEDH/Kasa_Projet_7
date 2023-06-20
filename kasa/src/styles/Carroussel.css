@@ -27,6 +27,28 @@ img.apptInt{
     height: 415px;
     position:absolute;
     top: -100px;
-    border-radius: 25px;
+    border-radius: 10px;
     object-fit: cover;
+}
+
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+
+.carroussel{
+left: 5px;
+}
+img.apptInt{
+    width: 335px;
+    height: 255px;
+}
+.vectorGauche, .vectorDroite{
+height: 49px;
+width: 26px;
+top: 0px;
+}
+.vectorDroite{
+    left: 100%;
+}
 }
