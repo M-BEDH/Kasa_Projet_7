@@ -9,9 +9,9 @@ function Collapse({ texte, titre}) {
   
   return isOpen ? (
     
-    < div className='Collapse' >
-    < Rectangle titre ={titre} />
-    < button className='vectorOuvert' onClick={() => setIsOpen(false)}>
+    <div className='Collapse' >
+    <Rectangle titre ={titre} />
+    <button className='vectorOuvert' onClick={() => setIsOpen(false)}>
     <img src={VectorHaut} alt="fleche vers le bas" className="vectorhaut" />
     
     </button>

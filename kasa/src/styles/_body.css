@@ -104,6 +104,8 @@ img.etoile{
     }
     .tags{
         width: 80px;
+        height: 25px;
+        line-height: 25px ;
         font-size: 12px;
     }
     .Host{

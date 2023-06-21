@@ -10,17 +10,20 @@
     height: 79px;
     width: 46px;
     position: absolute;
-    left: 2%;
+    left: 1%;
     top: 70px;
     z-index: 100;
 }
 .vectorDroite{
     height: 79px;
     width: 46px;
-    position: absolute;
+    position:absolute;
     top: 70px;
-    left: 93%;
+    left: 96%;
+    right: 1%;
     z-index: 100;
+    background-color: black;
+  
 }
 img.apptInt{
     width: 100%;
