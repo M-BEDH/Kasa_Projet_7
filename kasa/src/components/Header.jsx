@@ -19,12 +19,20 @@ function Header() {
   return (
     <div className="kasa-header">
       <h1> {logoKasa}</h1>
-      <nav className="nav">
-        <NavLink to={'/'}>
-          <li className="Accueil">Accueil</li>{' '}
+      <nav id="navigation">
+
+        <NavLink to={'/'} className={({ isActive}) =>
+          isActive ? "active" : " "}>
+            
+            <li className="Accueil">Accueil</li>{' '}
+        
           <span className="responsiveAccueil">ACCUEIL</span>{' '}
+        
         </NavLink>
-        <NavLink to={'/à-propos/'}>
+
+        <NavLink to={'/à-propos/'}  className={({ isActive}) =>
+          isActive ? "active" : " "}>
+          
           <li className="Apropos">A Propos</li>{' '}
           <span className="responsiveApropos">A PROPOS</span>{' '}
         </NavLink>
@@ -34,3 +42,4 @@ function Header() {
 }
 
 export default Header;
+ 
