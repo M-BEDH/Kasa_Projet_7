@@ -11,10 +11,10 @@ function FicheLogement() {
   const logement = LogementsList.find((logement) => logement.id === params.id);
   const equipments = logement.equipments;
   const description = logement.description;
-  const tags = logement.tags;
   const stars = logement.rating;
   const name = logement.host.name;
   let images = logement.pictures;
+  let tags = logement.tags;
 
   return (
     <div>
