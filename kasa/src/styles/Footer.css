@@ -55,7 +55,6 @@
 
 /* ****************Media query***************** */
 @media screen and (min-width: 375px) and (max-width: 767px) {
-    
     .kasa-footer {
         width: 120%;
         position: relative;
@@ -98,6 +97,9 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 .kasa-footer{
     width: auto;
-    left: 0;
+    left: 0 ;
+}
+.texte_footer{
+    left: 34%;
 }
 }

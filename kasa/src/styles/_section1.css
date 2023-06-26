@@ -62,8 +62,12 @@
 .text{
     width: 350px;
     left: 50px;
-    inline-size: max-content;
     font-size: 37px;
 }
+}
 
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+.text{
+    margin-left: 20px;
+}
 }
