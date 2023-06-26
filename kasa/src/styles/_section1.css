@@ -59,15 +59,21 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-.text{
-    width: 350px;
-    left: 50px;
-    font-size: 37px;
-}
+    .background{
+        width: 85%;
+        margin: auto;
+    }
+    .text{
+        width: 350px;
+        left: 50px;
+        font-size: 37px;
+    }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1600px) {
-.text{
-    margin-left: 20px;
-}
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .text{
+        margin-left: 20px;
+        font-size: 37px;
+        line-height: 0;
+    }
 }

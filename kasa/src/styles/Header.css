@@ -177,7 +177,7 @@ a.active {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 .kasa-header{
-    width: 70%;
+    width: 78%;
     margin: auto;
 }
 .logo{
@@ -204,7 +204,7 @@ font-size: 22px;
  }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1600px) {
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
 .logo{
     left: 5.5%;
 }
@@ -219,5 +219,7 @@ font-size: 22px;
 }
 .Accueil, .Apropos{
     margin-left: 10px;
+    font-size: 20px;
 }
 }
+

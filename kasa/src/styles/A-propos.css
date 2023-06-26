@@ -24,9 +24,9 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1240px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .apropos{
-    width: 60%;
+    width: 59%;
 }
 }
 

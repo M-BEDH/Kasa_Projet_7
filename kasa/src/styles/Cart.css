@@ -52,7 +52,7 @@ img.appt{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
+        
     }
     img.appt {
         width: 245px;
@@ -67,35 +67,42 @@ img.appt{
 
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
-.gallery{
-    width: 93%;
-    margin-left: 6%;
-}    
-.cartLogement{
-padding: 36px;
-}
-.titre{
-    font-size: 12px;
-}
-.gallery{
-    background-color: white;
-}
+    .gallery{
+        width: 93%;
+        margin-left: 6%;
+    }    
+    .cartLogement{
+        width: 200px;
+        height: 200px;
+        padding: 36px;
+        margin-left: 50px;
+    }
+    img.appt{
+        width: 200px;
+        height: 200px;
+    }
+    .titre{
+        font-size: 12px;
+    }
+    .gallery{
+        background-color: white;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
-.cartLogement{
-    width: 200px;
-    height: 200px;
-    margin-left: 51px;
-    padding: 38px;
-}
-img.appt{
-    width: 200px;
-    height: 200px;
-}
-.titre{
-    font-size: 13px;
-}
+    .cartLogement{
+        width: 200px;
+        height: 200px;
+        margin-left: 51px;
+        padding: 38px;
+    }
+    img.appt{
+        width: 200px;
+        height: 200px;
+    }
+    .titre{
+        font-size: 13px;
+    }
 }
 
 
