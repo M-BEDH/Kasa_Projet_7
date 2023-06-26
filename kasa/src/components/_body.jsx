@@ -29,12 +29,10 @@ function Body({ id, titre, location, tags, name, profilePicture, stars }) {
         <p className="titreLogement"> {titre} </p>
         <span className="location"> {location} </span>
       </div>
-
-      <div className="info">
+      <div className="tagsLogement">
         {tags.map((tags, index) => (
-          <div className="tags" key={index} index={index.tags}>
-            {' '}
-            {tags}{' '}
+          <div className="tags" key={index.tag}>
+            {tags}
           </div>
         ))}
       </div>
