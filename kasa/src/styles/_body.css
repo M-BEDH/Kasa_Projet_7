@@ -17,17 +17,15 @@
 .location {
     font-size: 22px;
 }
-.info {
+.tagsLogement{
     display: flex;
-    width: 500px;
+    width: 575px;
     position: relative;
     top: 30px;
-    color: white;
 }
-.tags{
+.tags {
     width: 155px;
     height: 30px;
-    background-color: #ff6060;
     margin-right: 10px;
     border-radius: 20px;
     font-size: 14px;
@@ -35,6 +33,8 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+    background-color: #ff6060;
+    color: white;
 }
 .Host {
     width: 300px;
@@ -72,7 +72,7 @@
     width: 190px;
     border-radius: 0px;
     position: absolute;
-    top: 120px;
+    top: 125px;
     left: 22%;
 }
 img.etoile{
@@ -86,11 +86,11 @@ img.etoile{
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .LogementBody{
         font-family: Montserrat;
         margin-left: 10px;
-        top: 0px;
+        top: 275px;
     }
     .titreLogement{
         font-size: 20px;
@@ -107,6 +107,7 @@ img.etoile{
         height: 25px;
         line-height: 25px ;
         font-size: 12px;
+        margin-right: 5px;
     }
     .Host{
         position: relative;
@@ -131,4 +132,10 @@ img.etoile{
         height: 14px;
         width: 14.7px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.LogementBody {
+    width: 70%;
+}
 }

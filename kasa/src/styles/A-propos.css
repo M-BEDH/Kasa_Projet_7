@@ -3,25 +3,31 @@
     border-radius: 5px;
 }
 .apropos{
-    width: 1023px;
+    width: 55%;
     position: relative;
-    top: 500px;
-    left: 88px;
+    top: 250px;
+    margin: auto;
 }
 .pagePropos{
-    margin-left: 330px;
+    margin-left: 0;
 }
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .apropos {
         width: 335px;
-        left: -315px;
-        top: 300px;
+        top: 200px;
         padding-top: 20px;
         overflow-y:auto;
         overflow-x: hidden;
+        margin: auto;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+.apropos{
+    width: 60%;
+}
 }
 
 

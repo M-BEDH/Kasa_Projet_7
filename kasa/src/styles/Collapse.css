@@ -1,24 +1,35 @@
 .Collapse{
-    height: auto;
     position: relative;
-    top: -71px;
+    top: -72px;
     background-color: #F7F7F7; 
     border-radius: 10px;
     padding-bottom: 30px;
 }
-.vectorOuvert, .vectorFermé {
+.vectorOuvert{
     position: relative;
-    top: -55px;
+    top: -60px;
     left: 93%;
     background-color: #ff6060;
     border: #ff6060;
+    z-index: 1000;
+}
+.CollapseFermé{
+    height: 0px;
+    position: relative;
+    left: 0%;
+    top: -72px;
+}
+.vectorFermé{
+    position: relative;
+    top: -60px;
+    left: 93%;
+    background-color: #ff6060;
+    border: hidden;
+    z-index: 1000;
 }
 .vectorhaut, .vectorbas{
-    width: 20px;
     height: 10px;
     background-color: #ff6060;
-    position: relative;
-    top: -5px;
 }
 .texteCollapse{
     width: 95%;
@@ -35,14 +46,19 @@
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
-    .vectorOuvert, .vectorFermé {
-        position: relative;
-        left: 85%;
-        top: -55px;
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .vectorOuvert {
+        left: 86%;
+     
+        z-index: 1000;
+    }
+    .vectorFermé{
+       left: 85%;
     }
     .Collapse{
+        width: min-content;
         top: -60px;
+        margin: auto;
     }
     .texteCollapse {
         font-size: 12px;
@@ -53,4 +69,33 @@
         position: relative;
         top: -20px;
     }
+    .CollapseFermé{
+        width: 335px;
+        position: relative;
+        top: -60px;
+        border-radius: 10px;
+        padding-bottom: 8px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.CollapseFermé{
+    height: 0px;
+    position: relative;
+    top: -72px;
+    border-radius: 10px;
+    margin: auto;  
+}
+ .vectorFermé{
+    position: relative;
+    top: -60px;
+    background-color: #ff6060;
+    border: #ff6060;
+ }
+ .vectorOuvert, .vectorFermé{
+   width: 18px;
+   left: 92%;
+ }
 }

@@ -8,7 +8,6 @@
     position: relative;
     top: -25px;
 }
-
 .titreRectangles {
     color: white;
     font-family: Montserrat;
@@ -21,9 +20,10 @@
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .rectangles{
         width: 335px;
+        margin: auto;
     }
     .titreRectangles {
         font-size: 13px;
@@ -32,6 +32,9 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
 
 
 

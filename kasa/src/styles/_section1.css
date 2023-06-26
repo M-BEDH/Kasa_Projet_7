@@ -1,11 +1,11 @@
 .background{
     background: #000000;
-    width:80%;
+    width:70%;
     height: 223px;
-    left: 10%;
-    top: 200px;
+    top: 150px;
     border-radius: 25px;
-    position: absolute;
+    position:relative;
+    margin: auto;
 }
 .section1{
     margin-bottom: 0%;
@@ -13,8 +13,6 @@
 .section1 img{
     width: 100%;
     height: 223px;
-    position: relative;
-    top: -20px;
     opacity: 0.8;
     object-fit: cover;
     border-radius: 25px;
@@ -23,7 +21,6 @@
     color: white;
     background: rgba(255, 255, 255, 1);
     position: absolute;
-    left: 26%;
     right: 25.14%;
     top: 24.32%;
     bottom: 69.04%;
@@ -38,14 +35,13 @@
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     
     .background {
         height: 111px;
-        width: 335px;
-        left: 12px;
-        top: 130px;
+        width: 91%;
         overflow: hidden;
+        margin-left: 18px;
     }
     .text{
         width: 222px;
@@ -55,6 +51,19 @@
         left: 30px;
     }
     .section1 img{
+        width: 100%;
+        position: relative;
         top: -22px;
     }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.text{
+    width: 350px;
+    left: 50px;
+    inline-size: max-content;
+    font-size: 37px;
+}
+
 }

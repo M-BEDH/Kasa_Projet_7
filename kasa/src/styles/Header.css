@@ -1,9 +1,9 @@
 .kasa-header {
     color: #FF6060;
-    position: absolute;
-    width: 80%;
+    position: relative;
+    width: 70%;
     height: 68px;
-    left: 10%;
+    margin: auto;
     top: 40px;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,6 @@
     left: 0%;
     right: 95.62%;
     top: 0%;
-    bottom: 8.45%;
 }
 .logo {
     position: absolute;
@@ -24,24 +23,21 @@
 }
 .logo1{
     position: absolute;
-    left: 6.90%;
+    left: 7.4%;
     right: 80%;
     top: 68.66%;
-    bottom: 8.17%;
 }
 .logoS{
     position: absolute;
     left: 9.58%;
     right: 87.24%;
     top: 21.53%;
-    bottom: 7.89%;
 }
 .logoA{
     position: absolute;
     left: 13.66%;
     right: 83.04%;
     top: 21.25%;
-    bottom: 7.9%;
 }
 #navigation {
     position: absolute;
@@ -98,21 +94,21 @@ a.active {
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .kasa-header {
         position: absolute;
-        width: auto;
+        width: 52%;
         justify-content: space-between;
         height: 58px;
-        left: 10px;
         top: 40px;
+        margin: 18px;
     }
     .responsiveAccueil, .responsiveApropos{
         display: inline;
         font-size: 16px;
         font-weight: 400;
         color: #FF6060;
-        margin-left: 25px;
+        margin-left: 20px;
     }
     .logoK {
         position: absolute;
@@ -176,4 +172,52 @@ a.active {
     #navigation {
         position: relative;
     }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.kasa-header{
+    width: 70%;
+    margin: auto;
+}
+.logo{
+left: 9%;
+}
+.logo1{
+    left: 13.5%;
+}
+.logoS{
+    left: 17%;
+    top: 15px;
+}
+.logoA{
+    left: 23%;
+    top: 15px;
+}
+#navigation{
+   width: 50%;
+   left: 55%;
+   top: 30px;
+}
+.Accueil, .Apropos{
+font-size: 22px;
+ }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+.logo{
+    left: 5.5%;
+}
+.logo1{
+    left: 8%;
+}
+.logoS{
+    left: 10%;
+}
+.logoA{
+    left: 14%;
+}
+.Accueil, .Apropos{
+    margin-left: 10px;
+}
 }

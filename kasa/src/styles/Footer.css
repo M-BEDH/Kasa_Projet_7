@@ -1,9 +1,9 @@
 .kasa-footer{
     height: 209px;
-    width: 80%;
+    width: 70%;
     position: relative;
-    top: 800px; 
-    left: 185px;
+    top: 600px; 
+    margin: auto;
     border-radius: 0px;
     background: #000000;
 }
@@ -54,12 +54,12 @@
 
 
 /* ****************Media query***************** */
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     
     .kasa-footer {
+        width: 120%;
         position: relative;
         left: 0px;
-        width: 100vw;
         top: 450px;
     }
     .kasa-Footer{
@@ -94,3 +94,10 @@
     }
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.kasa-footer{
+    width: auto;
+    left: 0;
+}
+}
