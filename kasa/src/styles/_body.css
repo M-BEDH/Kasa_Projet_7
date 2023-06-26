@@ -138,4 +138,10 @@ img.etoile{
 .LogementBody {
     width: 70%;
 }
+.stars{
+    top: 84px;
+}
+img.propriètaire{
+    top: -105px;
+}
 }
