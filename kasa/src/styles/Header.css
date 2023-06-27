@@ -71,8 +71,8 @@ a.active {
     list-style: none;
     color: #FF6060;
 }
-.Accueil:hover{
-    text-decoration-line: underline;
+.Accueil:hover, .Apropos:hover{
+    text-decoration: underline lightblue;
 }
 .Apropos{
     width: 116px;
@@ -87,9 +87,6 @@ a.active {
     line-height: 142.6%;
     list-style: none;
     color: #FF6060;
-}
-.Apropos:hover{
-    text-decoration-line: underline;
 }
 
 
