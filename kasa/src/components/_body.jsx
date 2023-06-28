@@ -5,7 +5,7 @@ import '../styles/index.css';
 
 function Body({ id, titre, location, tags, name, profilePicture, stars }) {
   const img = (
-    <img src={profilePicture} alt="propriètaire" className="propriètaire" />
+    <img src={profilePicture} alt="proprietaire" className="proprietaire" />
   );
   const starsActive = stars;
   const starsInactive = 5 - stars;
@@ -13,13 +13,13 @@ function Body({ id, titre, location, tags, name, profilePicture, stars }) {
 
   for (let i = 0; i < starsActive; i++) {
     starsNote.push(
-      <img src={logoEtoileActive} alt="etoile orange" className="etoile" />
+      <img key={`starsActive-${i}`}src={logoEtoileActive} alt="etoile orange" className="etoile" />
     );
   }
 
   for (let j = 0; j < starsInactive; j++) {
     starsNote.push(
-      <img src={logoEtoileInactive} alt="etoile grise" className="etoile" />
+      <img key={`starsInactive-${j}`} src={logoEtoileInactive} alt="etoile grise" className="etoile" />
     );
   }
 
@@ -30,9 +30,9 @@ function Body({ id, titre, location, tags, name, profilePicture, stars }) {
         <span className="location"> {location} </span>
       </div>
       <div className="tagsLogement">
-        {tags.map((tags, index) => (
-          <div className="tags" key={index.tag}>
-            {tags}
+        {tags.map((tag, index) => (
+          <div className="tags" key={index}>
+            {tag}
           </div>
         ))}
       </div>
