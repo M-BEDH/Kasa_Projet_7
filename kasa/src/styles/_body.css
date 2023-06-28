@@ -137,11 +137,21 @@ img.etoile{
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 .LogementBody {
     width: 70%;
+    margin-left: 10%;
+}
+.Host{
+    left:70%;
+}
+.Profil img{
+    top: -110px
 }
 .stars{
-    top: 84px;
+    top: 90px;
 }
-img.propriètaire{
-    top: -105px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+.Host{
+    left: 70%;
 }
 }

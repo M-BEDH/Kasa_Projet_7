@@ -55,9 +55,16 @@ img.apptInt{
 
 @media screen and (min-width:768px) and (max-width: 1200px) {
 .vectorDroite{
-    left: 94%;
+    left: 92.5%;
 }
 .carroussel{
-    margin-left: 20px;
+    left: 0;
+    margin: auto;
+}
+}
+
+@media screen and (min-width:1200px) and (max-width: 1500px) {
+.vectorDroite{
+    left: 94.3%;
 }
 }

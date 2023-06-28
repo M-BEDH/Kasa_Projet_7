@@ -33,7 +33,7 @@
     height: 9px;
     width: 3px;
     position: relative;
-    left: 45%;
+    left: 44.78%;
     filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(100deg) brightness(118%) contrast(200%)   
 }
 .logoS-footer{
@@ -56,14 +56,10 @@
 /* ****************Media query***************** */
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .kasa-footer {
-        width: 120%;
-        position: relative;
-        left: 0px;
-        top: 450px;
+        width: auto;
     }
     .kasa-Footer{
-        position: relative;
-        left: -40px;
+     margin-left: -10%;
     }
     .logoK-footer {
         width: 27px;
@@ -75,7 +71,7 @@
     }
     .logo1-footer {
         position: relative;
-        left: 44%;
+        left: 44.3%;
     }
     .logoS-footer {
         width: 19px;
@@ -87,9 +83,7 @@
     }
     .texte_footer {
         width: 44%;
-        position: relative;
-        left: 90px;
-        top: 0px;
+       margin-left: -12%;
     }
 }
 
@@ -99,7 +93,10 @@
     width: auto;
     left: 0 ;
 }
+.logo1-footer{
+    left: 44.5%;
+}
 .texte_footer{
-    left: 34%;
+    left: 30%;
 }
 }

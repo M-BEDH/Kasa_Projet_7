@@ -51,23 +51,38 @@
         font-weight: 700;
     }
     .oups{
-        width: 320px;
-        top: 340px;
+        width: 85%;
+        top: 40px;
         font-size: 18px;
-        margin: auto;
+        top: 30%;
+        left: 6%;
     }
     .retour a{
         width: 335px;
         top: 450px;
         font-size: 14px;
-        margin-left: -5%;
+        margin-left: -25%;
     }  
     .spanResponsive{
-        width: 200px;
+        width: 90%;
         display: block;
-        padding-left: 60px;
         line-height: 2rem;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.spanResponsive{
+    width: 300px;
+    display: block;
+    padding-left: 22%;
+    line-height: 2rem;
+}
+.oups{
+    font-size: 30px;
+}
+.retour a{
+    margin-left: -7%;
+}
 }
 
 
