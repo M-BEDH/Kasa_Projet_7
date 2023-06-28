@@ -72,7 +72,7 @@ a.active {
     color: #FF6060;
 }
 .Accueil:hover, .Apropos:hover{
-    text-decoration: underline lightblue;
+    text-decoration: underline rgb(169, 227, 247);
 }
 .Apropos{
     width: 116px;
@@ -106,6 +106,9 @@ a.active {
         font-weight: 400;
         color: #FF6060;
         margin-left: 20px;
+    }
+    .responsiveApropos{
+        margin-right: 10px;
     }
     .logoK {
         position: absolute;
