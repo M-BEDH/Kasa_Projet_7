@@ -63,8 +63,8 @@ img.apptInt{
 }
 }
 
-@media screen and (min-width:1200px) and (max-width: 1500px) {
+@media screen and (min-width:1200px) and (max-width: 1400px) {
 .vectorDroite{
-    left: 94.3%;
+    left: 94%;
 }
 }

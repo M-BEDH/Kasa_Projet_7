@@ -200,11 +200,14 @@ left: 9%;
    top: 30px;
 }
 .Accueil, .Apropos{
-font-size: 22px;
+   font-size: 22px;
+ }
+ a.active {
+    text-decoration: underline #FF6060;
  }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1500px) {
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 .logo{
     left: 5.5%;
 }

@@ -69,9 +69,10 @@ img.appt{
     }    
     .cartLogement{
         width: 200px;
-        height: 200px;
-        padding: 36px;
-        margin-left: 50px;
+        height: 215px;
+        padding: 20px;
+        margin-left: auto;
+        background-color: #ff6060;
     }
     img.appt{
         width: 200px;
@@ -87,22 +88,32 @@ img.appt{
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1500px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     .cartLogement{
         width: 200px;
         height: 200px;
         margin-left: 40px;
-        padding: 38px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-right: 40px;
+        padding-left: 20px;
+        background-color: #ff6060;
     }
     img.appt{
-        width: 200px;
+        width: 220px;
         height: 200px;
     }
     .titre{
-        font-size: 13px;
+        font-size: 12px;
         margin-left: 0;
         top: -13px;
     }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1630px) {
+.cartLogement{
+    margin-left: 27px;
+}
 }
 
 
