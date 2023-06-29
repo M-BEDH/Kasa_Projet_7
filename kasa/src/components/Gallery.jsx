@@ -1,5 +1,5 @@
 import Cart from './Cart';
-import LogementsList from '../data/myJson.json';
+import LogementsList from '../data/logements.json';
 import { NavLink } from 'react-router-dom';
 import '../styles/Gallery.css';
 

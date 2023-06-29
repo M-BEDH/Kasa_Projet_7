@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import Body from '../../components/_body';
-import LogementsList from '../../data/myJson.json';
+import LogementsList from '../../data/logements.json';
 import Rectangle from '../../components/_rectangles';
 import '../../styles/FicheLogement.css';
 import Collapse from '../../components/Collapse';
