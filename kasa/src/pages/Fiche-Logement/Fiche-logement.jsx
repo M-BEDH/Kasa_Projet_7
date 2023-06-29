@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import Body from '../../components/_body';
 import LogementsList from '../../data/logements.json';
 import Rectangle from '../../components/_rectangles';
@@ -6,9 +6,14 @@ import '../../styles/FicheLogement.css';
 import Collapse from '../../components/Collapse';
 import Carroussel from '../../components/Carroussel';
 
+
+
 function FicheLogement() {
   const params = useParams();
   const logement = LogementsList.find((logement) => logement.id === params.id);
+  if (!logement) {
+    return <Navigate replace to="/404"/>
+  }
   const equipments = logement.equipments;
   const description = logement.description;
   const stars = logement.rating;
