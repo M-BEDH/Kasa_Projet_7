@@ -40,13 +40,13 @@
     top: 21.25%;
 }
 #navigation {
-    position: absolute;
-    left: 75.08%;
+    position: relative;
+    left: -2%;
     right: 0%;
     top: 25%;
     bottom: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 a {
     text-decoration: none;
@@ -54,13 +54,13 @@ a {
 a.active {
     text-decoration: underline #FF6060;
 }
-.responsiveAccueil, .responsiveApropos{
-    display: none;
+ul{
+    display: flex;
 }
 .Accueil{
     width: 136px;
     height: 34px;
-    left: 931px;
+    left: 80%;
     top: 17px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -101,15 +101,11 @@ a.active {
         top: 40px;
         margin: 18px;
     }
-    .responsiveAccueil, .responsiveApropos{
-        display: inline;
-        font-size: 16px;
+    .Accueil, .Apropos{
+        text-transform: uppercase;
+        font-size: 14px;
         font-weight: 400;
         color: #FF6060;
-        margin-left: 20px;
-    }
-    .responsiveApropos{
-        margin-right: 10px;
     }
     .logoK {
         position: absolute;
@@ -164,14 +160,11 @@ a.active {
         top: 9px;
         border-radius: 0px;
     }
-    .Accueil {
-        display: none;
-    }
-    .Apropos {
-        display: none;
-    }
     #navigation {
-        position: relative;
+        left: 35%;
+    }
+    ul {
+        display: flex;
     }
 }
 
@@ -196,12 +189,11 @@ left: 9%;
     top: 15px;
 }
 #navigation{
-   width: 50%;
-   left: 55%;
+   left: 5%;
    top: 30px;
 }
 .Accueil, .Apropos{
-   font-size: 22px;
+   font-size: 20px;
  }
  a.active {
     text-decoration: underline #FF6060;
@@ -223,7 +215,7 @@ left: 9%;
 }
 .Accueil, .Apropos{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 }
 
