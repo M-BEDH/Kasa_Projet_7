@@ -14,7 +14,7 @@ code {
 }
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
   body{
     width: 100vw;
     padding: 0px;

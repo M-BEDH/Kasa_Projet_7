@@ -13,7 +13,7 @@
 }
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
     .apropos {
         width: 335px;
         top: 200px;

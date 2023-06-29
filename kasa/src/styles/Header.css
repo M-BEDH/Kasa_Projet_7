@@ -70,6 +70,7 @@ a.active {
     text-align: right;
     list-style: none;
     color: #FF6060;
+    margin-right: 15px;
 }
 .Accueil:hover, .Apropos:hover{
     text-decoration: underline rgb(169, 227, 247);
@@ -91,7 +92,7 @@ a.active {
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
     .kasa-header {
         position: absolute;
         width: 52%;

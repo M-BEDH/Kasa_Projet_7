@@ -36,7 +36,7 @@ img.appt{
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
     
     .cartLogement{
         height: 208px;
@@ -110,7 +110,7 @@ img.appt{
     }
 }
 
-@media screen and (min-width: 1401px) and (max-width: 1630px) {
+@media screen and (min-width: 1401px) and (max-width: 1670px) {
 .cartLogement{
     margin-left: 27px;
 }
