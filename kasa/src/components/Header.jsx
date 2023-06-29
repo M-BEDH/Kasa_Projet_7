@@ -20,26 +20,24 @@ function Header() {
     <div className="kasa-header">
       <h1> {logoKasa}</h1>
       <nav id="navigation">
-
-        <NavLink to={'/'} className={({ isActive}) =>
-          isActive ? "active" : " "}>
-            
+        <ul>
+          <NavLink
+            to={'/'}
+            className={({ isActive }) => (isActive ? 'active' : ' ')}
+          >
             <li className="Accueil">Accueil</li>{' '}
-        
-          <span className="responsiveAccueil">ACCUEIL</span>{' '}
-        
-        </NavLink>
+          </NavLink>
 
-        <NavLink to={'/à-propos/'}  className={({ isActive}) =>
-          isActive ? "active" : " "}>
-          
-          <li className="Apropos">A Propos</li>{' '}
-          <span className="responsiveApropos">A PROPOS</span>{' '}
-        </NavLink>
+          <NavLink
+            to={'/à-propos/'}
+            className={({ isActive }) => (isActive ? 'active' : ' ')}
+          >
+            <li className="Apropos">A Propos</li>{' '}
+          </NavLink>
+        </ul>
       </nav>
     </div>
   );
 }
 
 export default Header;
- 
