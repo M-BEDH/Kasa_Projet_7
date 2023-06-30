@@ -39,6 +39,7 @@ img.appt{
 @media screen and (min-width: 370px) and (max-width: 767px) {
     
     .cartLogement{
+        width: auto;
         height: 208px;
         margin-left: 10px;
         margin-top: 20px;
@@ -52,6 +53,7 @@ img.appt{
         
     }
     img.appt {
+        width: auto;
         height: 208px;
         margin: 0;
     }
