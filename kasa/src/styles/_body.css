@@ -142,10 +142,12 @@ img.etoile{
 }
 .Host{
     left:70%;
-    top: -72px;
 }
 .Profil img{
-    top: -145px
+    top: -106px
+}
+.stars{
+    top: 86px;
 }
 }
 
