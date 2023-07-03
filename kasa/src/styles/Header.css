@@ -92,7 +92,7 @@ ul{
 
 
 /* ************* Media query ************ */
-@media screen and (min-width: 370px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
     .kasa-header {
         position: absolute;
         width: 52%;
