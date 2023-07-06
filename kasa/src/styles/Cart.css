@@ -66,55 +66,50 @@ img.appt{
 @media screen and (min-width: 768px) and (max-width: 1200px){
     .gallery{
         width: 93%;
-        margin-left: 6%;
     }    
     .cartLogement{
-        width: 200px;
         height: 215px;
-        padding: 20px;
-        margin-left: auto;
-        background-color: #ff6060;
+        margin: auto;
+        margin-top: 15px;
     }
     img.appt{
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 215px;
     }
     .titre{
         font-size: 12px;
-        margin-left: 0;
-        top: -13px;
+        top: -50px;
     }
     .gallery{
         background-color: white;
+        width: 41%;
+    
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .cartLogement{
-        width: 200px;
         height: 200px;
-        margin-left: 40px;
-        padding-top: 36px;
-        padding-bottom: 36px;
-        padding-right: 40px;
-        padding-left: 20px;
-        background-color: #ff6060;
+        margin-left: 50px;
     }
     img.appt{
-        width: 220px;
+        width: 100%;
         height: 200px;
     }
     .titre{
         font-size: 12px;
-        margin-left: 0;
-        top: -13px;
+        left: 5px;
+        top: -50px;
     }
 }
 
-@media screen and (min-width: 1401px) and (max-width: 1670px) {
+@media screen and (min-width: 1400px) and (max-width: 1669px) {
 .cartLogement{
-    margin-left: 27px;
+    width: 340px;
+   margin-left: 20px;
 }
 }
+
+
 
 
