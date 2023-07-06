@@ -24,6 +24,10 @@ function Carroussel({ images }) {
     return null;
   }
   const showVectors = images.length > 1; // Condition pour afficher les vecteurs
+
+ const fraction = `${current + 1}/${length}`; // fraction actuelle
+ console.log(fraction)
+
   return (
     <div className="carroussel">
       {showVectors && (
@@ -35,6 +39,7 @@ function Carroussel({ images }) {
         />
       )}
       {img}
+        <div className='fraction'>{fraction}</div> {/* Afficher la fraction */}  
       {showVectors && (
         <img
           onClick={nextSlide}

@@ -30,6 +30,16 @@ img.apptInt{
     border-radius: 10px;
     object-fit: cover;
 }
+.fraction{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    width: 24px;
+    height: 32px;
+    top: 65%;
+    margin: auto;
+    justify-content: end;
+}
 
 
 
@@ -50,6 +60,9 @@ img.apptInt{
     }
     .vectorDroite{
         left: 91%;
+    }
+    .fraction{
+        top: 80%;
     }
 }
 
